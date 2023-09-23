@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Parte 2</title>
+</head>
+<br><br><br>
+<body>
+    <div>
+        <label>Correo</label>
+        <input type="text" id="correo">
+    </div>
+    <br>
+    <div>
+        <label>Contraseña</label>
+        <input type="text" id="contraseña">
+    </div>
+    <br> 
+    <div>
+        <button onclick="Submit()">Enviar</button>
+
+
+    </div>    
+    <script>
+
+    function Submit() {
+
+        // Capturar el contenido de los inputs
+        const correo = document.querySelector("#correo").value;
+        const contraseña = document.querySelector("#contraseña").value;
+
+        // Imprimir el contenido de los inputs en la consola
+        console.log(correo, contraseña);
+    }
+
+    </script>
+</body>
+
+
+</html>
