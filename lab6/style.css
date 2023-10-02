@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  input {
+    width: 100px;
+    margin: 10px;
+  }
+  
+  button {
+    width: 100px;
+    margin: 10px;
+  }
+  
