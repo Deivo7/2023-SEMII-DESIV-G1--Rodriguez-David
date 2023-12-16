@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Peso En Piramide</title>
+</head>
+
+<body>
+  <div class="resultado">
+    <p>Peso total de la piramide: <span id="peso">0</span></p>
+  </div>
+  <div id="app">
+  </div>
+  <div class="panel-control">
+    <p>Panel Control</p>
+    <div class="input-altura">
+      <label for="altura">
+        Altura
+      </label>
+      <input type="number" name="altura" id="altura" min="1" max="50">
+      <button id="btn-construir">Construir</button>
+    </div>
+    <div class="btns">
+      <button id="btn-calcular">Calcular Camino</button>
+      <button id="btn-reiniciar">Reiniciar</button>
+    </div>
+
+    <hr>
+    <p>Pirámides Almacenadas</p>
+    <ul id="lista-piramides">
+
+    </ul>
+  </div>
+  <p id="ruta"></p>
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>

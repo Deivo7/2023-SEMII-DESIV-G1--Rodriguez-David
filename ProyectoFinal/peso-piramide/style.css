@@ -1,0 +1,151 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+body > .resultado > p {
+  font-size: xx-large;
+  font-style: italic;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+body > .resultado > p > span {
+  font-weight: bolder;
+}
+
+.piramide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  gap: 4px;
+}
+
+.piramide-altura {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: fit-content;
+  gap: 4px;
+}
+
+.piramide-bloque {
+  background-color: blanchedalmond;
+  border: 2px solid gray;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: all 0.2s;
+}
+
+.piramide-bloque:hover {
+  transform: scale(1.5);
+}
+
+.piramide-bloque-s {
+  height: 7px;
+  width: 11px;
+  font-size: xx-small;
+}
+
+.piramide-bloque-m {
+  height: 12px;
+  width: 16px;
+  font-size: small;
+}
+
+.piramide-bloque-l {
+  height: 25px;
+  width: 40px;
+  font-size: small;
+}
+.piramide-bloque-xl {
+  height: 50px;
+  width: 80px;
+  font-size: medium;
+}
+
+.piramide-bloque-s:hover {
+  transform: scale(2.5);
+}
+
+.piramide-resaltar {
+  border: 2px solid red;
+}
+
+.panel-control {
+  position: fixed;
+  top: 15px;
+  left: 15px;
+  background-color: #efefef;
+  border: 2px solid black;
+  box-shadow: 2px 2px;
+  border-radius: 5px;
+  width: 200px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.panel-control > p {
+  margin: 0;
+  font-size: large;
+  text-align: center;
+  text-shadow: ;
+}
+
+.input-altura {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4px;
+  width: 100%;
+}
+
+.input-altura > input {
+  width: 35px;
+}
+
+.panel-control > button {
+  display: block;
+  margin: auto;
+}
+
+#lista-piramides {
+  height: 400px;
+  overflow-y: scroll;
+  margin: 0px;
+  padding-inline-start: 0px;
+}
+
+#lista-piramides > li {
+  margin-top: 2px;
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#ruta {
+  padding: 5px;
+  bottom: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 50vw;
+  gap: 4;
+  justify-content: center;
+  align-items: center;
+}
+
+.ruta-nodo {
+  position: relative;
+  width: 70px;
+  text-align: center;
+}
