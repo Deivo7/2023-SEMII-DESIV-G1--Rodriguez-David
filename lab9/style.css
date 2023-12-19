@@ -1,0 +1,13 @@
+#pyramid-container {
+    text-align: center;
+}
+
+.pyramid-box {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #000;
+    margin: 0 5px;
+    line-height: 40px;
+}
+

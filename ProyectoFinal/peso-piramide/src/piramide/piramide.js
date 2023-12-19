@@ -1,7 +1,7 @@
 /**
  * piramide.js
  * Imita A la clase piramide en el backend para facilitar la comunicacion y el 
- * consume de la api
+ * consumo de la api
  */
 
 export class Piramide {

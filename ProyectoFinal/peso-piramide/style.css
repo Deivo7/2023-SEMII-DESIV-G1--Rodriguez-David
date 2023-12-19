@@ -98,7 +98,7 @@ body > .resultado > p > span {
   margin: 0;
   font-size: large;
   text-align: center;
-  text-shadow: ;
+  text-shadow: center;
 }
 
 .input-altura {
